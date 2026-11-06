@@ -1,0 +1,11 @@
+.DS_Store
+build/
+.build/
+.swiftpm/
+xcuserdata/
+*.xcuserstate
+*.xcresult
+*.log
+Local.xcconfig
+.env*
+field_sessions/

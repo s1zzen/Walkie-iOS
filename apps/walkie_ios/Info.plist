@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>CFBundleDevelopmentRegion</key><string>ru</string>
+  <key>CFBundleDisplayName</key><string>Walkie</string>
+  <key>CFBundleExecutable</key><string>$(EXECUTABLE_NAME)</string>
+  <key>CFBundleIdentifier</key><string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+  <key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
+  <key>CFBundleName</key><string>$(PRODUCT_NAME)</string>
+  <key>CFBundlePackageType</key><string>APPL</string>
+  <key>CFBundleShortVersionString</key><string>$(MARKETING_VERSION)</string>
+  <key>CFBundleVersion</key><string>$(CURRENT_PROJECT_VERSION)</string>
+  <key>LSRequiresIPhoneOS</key><true/>
+  <key>WalkieBackendURL</key><string>$(WALKIE_BACKEND_URL)</string>
+  <key>UILaunchScreen</key><dict/>
+  <key>UISupportedInterfaceOrientations</key><array><string>UIInterfaceOrientationPortrait</string></array>
+  <key>NSLocationWhenInUseUsageDescription</key><string>Во время прогулки Walkie записывает координаты только на iPhone. Серверу трек не отправляется. Выгрузка доступна отдельно по вашей команде.</string>
+  <key>UIBackgroundModes</key><array><string>location</string></array>
+  <key>NSMotionUsageDescription</key><string>Walkie сравнивает шаги и геопозицию для проверки достоверности отклонения от маршрута. Исследовательские записи остаются на iPhone.</string>
+  <key>UIAppFonts</key><array><string>Onest.ttf</string><string>Unbounded.ttf</string></array>
+  <key>UIFileSharingEnabled</key><true/>
+  <key>LSSupportsOpeningDocumentsInPlace</key><true/>
+</dict></plist>

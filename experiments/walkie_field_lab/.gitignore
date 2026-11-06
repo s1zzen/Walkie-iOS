@@ -1,0 +1,7 @@
+build/
+.build/
+.swiftpm/
+xcuserdata/
+*.xcuserstate
+field_sessions/
+*.xcresult

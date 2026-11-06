@@ -1,0 +1,1003 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		025E5A4B617748693CF514CE /* RoutePreviewStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5625D2829FA14EFF01B8ADA3 /* RoutePreviewStore.swift */; };
+		02B4FB6BDD42FC936C2DE2B7 /* WalkSessionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63D93FD4B4A7115FA16B92 /* WalkSessionCoordinator.swift */; };
+		046293CF95F74A0A7B55DF27 /* WalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA2354BD0C115176CB41C0 /* WalkView.swift */; };
+		0606E0BC79D7B2008045D1D4 /* OnboardingFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505E0DE0C88823226762F4E6 /* OnboardingFlowView.swift */; };
+		06B0D067FDA29E19490336A8 /* WalkPermissionsFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40AB5DFB38857159474987 /* WalkPermissionsFlowView.swift */; };
+		08E47D8A101F96C71BDDE36E /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2351CF7D4BC36140208E35A /* HistoryView.swift */; };
+		0A9274E5DFEF10AEC7B68DCE /* PlanningViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35991AED4B7728D59C0A0928 /* PlanningViewModel.swift */; };
+		0E40496676E6927B896919FB /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAE91790F1CD2325DA7DE6A /* LibraryView.swift */; };
+		0FABCB6C8F6C0C3A97366483 /* WalkPermissionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE5283BC5398FD3CE97ADE6 /* WalkPermissionsTests.swift */; };
+		11A55152DC27F0486DCC79D0 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F764420E73AFF07EE2711D /* HistoryViewModel.swift */; };
+		1455BF568116DF885BD156AB /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604DF90B39AB57E422D2F21A /* AccountViewModel.swift */; };
+		1456B3D9FFB0899B71F9DD05 /* Onest.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56F10501D5125C37CD209101 /* Onest.ttf */; };
+		14CEB35EE9DA2AE6DCFC819F /* WalkSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25CC6ABDBA00AB6F70B1436 /* WalkSummaryView.swift */; };
+		17B5C2AD75C226536C89975E /* BackendClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011C7AE71F90E7162FC26816 /* BackendClient.swift */; };
+		1B2C4C49D4ADA5F289F71C64 /* Unbounded.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36780D47F4FCFE5E8007F244 /* Unbounded.ttf */; };
+		214D8C779F95C5AE84DB1586 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6460AF85C472EEB8BB3ABA3F /* OnboardingViewModel.swift */; };
+		24DC59CBE92C42F1442B28DB /* RouteBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D99DF5BC93C735CBBB0D0C7 /* RouteBuilderView.swift */; };
+		2EE7834FFB17F4C2F7557A42 /* Unbounded-OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 365F20B6CFBAD6C0CA078E8B /* Unbounded-OFL.txt */; };
+		3233EF6035ACD50FB6D12520 /* RouteOperationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE7717A33BB54D0E5EC8BE7 /* RouteOperationStore.swift */; };
+		3470E9CE99831FC3E494AD3D /* DemoRouteCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B30C7E484BF2FB5ECCD18B /* DemoRouteCatalog.swift */; };
+		3FD803692D42B4FE8308C8A8 /* ReviewPresentationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BB8ABB8FB313A2F4084134 /* ReviewPresentationTests.swift */; };
+		4658D23A271613DD86AB3403 /* ProductWalkSyncStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33076EB50086125318CADF4F /* ProductWalkSyncStatus.swift */; };
+		48E2232F5D1CCD6ABE1D6CE6 /* Onest-OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = B002A5C522D1DBC8C97A9866 /* Onest-OFL.txt */; };
+		4E96E373582F194EA92E9153 /* OnboardingLiveAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49070E5987D8E24FE10A260C /* OnboardingLiveAuthService.swift */; };
+		53CD00EB12DB2520ADA1E8FD /* OnboardingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E01B21EA4E1698C1DFBD7D /* OnboardingTests.swift */; };
+		58F7E03CBC2F1AC0198221A5 /* WalkieCore in Frameworks */ = {isa = PBXBuildFile; productRef = 144F1FDD1560C255AB434B59 /* WalkieCore */; };
+		597CC63E6D4900EE49892C49 /* CoreAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C719EA236C1FE0F61EE3DC /* CoreAPI.swift */; };
+		5A355D5257369BF82E96F951 /* WalkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2529F34B07F3D3B3C9120B51 /* WalkViewModel.swift */; };
+		5E8B41F269AAADBDFA61A95A /* WalkSessionCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA0384DC25FE2191701511C /* WalkSessionCoordinatorTests.swift */; };
+		6C10586D8802BEDA7D8B7CA7 /* ProductTelemetryRecording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77364CE85DF78FC00C738358 /* ProductTelemetryRecording.swift */; };
+		71C39F2AB0D1D68ED174910A /* PlanningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B10A7BBE10D8B1ED8CBB653 /* PlanningView.swift */; };
+		74F0316873E0E9D7168790CC /* RouteReadyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3557FDE423E4E99975ECFD /* RouteReadyView.swift */; };
+		76B12F4040E1A285FF206488 /* HandoffComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173B16DB84D9E66A913CB99E /* HandoffComponents.swift */; };
+		7C0EB11FFA02F117B74917AF /* WalkieSmokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA74A2D1AEC3C3B3EC9C9D6 /* WalkieSmokeTests.swift */; };
+		7EC77A7BCE4190350F802D0F /* WalkieTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D168D3A88D5DF1787B77CCDC /* WalkieTheme.swift */; };
+		802EF2BA43D44708141EB487 /* RouteDraftStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00145C340797E42D89010A46 /* RouteDraftStore.swift */; };
+		83B1381D3A4A14924A2F3A8A /* AccountBackendClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9EF1D47D7D34723B8A0C37 /* AccountBackendClient.swift */; };
+		88D52191F57691A5E019F028 /* WalkieCore in Frameworks */ = {isa = PBXBuildFile; productRef = FB9B9B0425188F99C81A073E /* WalkieCore */; };
+		8A11649CD25622BB39DBD55F /* AccountViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57010C4A2A13835420EBF6E4 /* AccountViewModelTests.swift */; };
+		8CF71E76E817A266C0FB3A09 /* ProductStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7088B889AA354FCA596E6099 /* ProductStoreTests.swift */; };
+		8ED28785E502131BAF091923 /* LiveRoutesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE45A464A1140DC594451E6 /* LiveRoutesAPI.swift */; };
+		8F2B7F1AA9F5DFAAF7C2A843 /* ProductWalkSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8847ACB74E2FE889A7D04F78 /* ProductWalkSync.swift */; };
+		952355200411917A11A3C26E /* SystemWalkPermissionsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF03B24A1C55A3B1C9588BF8 /* SystemWalkPermissionsClient.swift */; };
+		962F8EE220AC7E3CB361BE0D /* RouteReverseGeocoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA9370EBAE2E2FF55DCD67 /* RouteReverseGeocoder.swift */; };
+		9F07283D69981B8634663EE9 /* SwitchingCoreAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306CF5179EC8FFA4FE5D5E61 /* SwitchingCoreAPI.swift */; };
+		9FFB421BF80A9B8FC047C86E /* WalkieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0603BA991B2F980BEBE72E0F /* WalkieApp.swift */; };
+		ABD41C198086A7BA94C35897 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CAD1B3DD05B9A1FCDA33BC /* AppDependencies.swift */; };
+		AC19F9E52B49ACBE5817D167 /* WalkConnectivityMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C16F6FD61C6BA3B600E064 /* WalkConnectivityMonitor.swift */; };
+		B095D0489E8CDC87510A71D1 /* HandoffTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952EF21953F6A04E77D8BDE3 /* HandoffTheme.swift */; };
+		B100AB1D1981F586F829BB11 /* SensorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA8A968BE016189B4F8F90 /* SensorService.swift */; };
+		B43BAD0AA1638D869E8C096F /* RoutePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AC0BD5B9802D70CAD563B0 /* RoutePreviewViewModel.swift */; };
+		B75DB9F3CE0AA8023B826E35 /* RoutePreviewAndDraftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF572A711C9CDC57061ED8FB /* RoutePreviewAndDraftTests.swift */; };
+		BBB5A9082F03C269C4A7E609 /* RouteLocationPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5911D1DD0293181D8415210B /* RouteLocationPickerTests.swift */; };
+		BDAC0F6D0CE862CF9F742A78 /* LiveRoutesAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ED33CAFF7A7B623325E627 /* LiveRoutesAPITests.swift */; };
+		BEC71FE60612E00D4B09A94C /* WalkieLogo.svg in Resources */ = {isa = PBXBuildFile; fileRef = C4D567138C243C66686A90B9 /* WalkieLogo.svg */; };
+		C6502CA2BB9D656892AB5A85 /* PlaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF8AF52410AAF6B375CDB44 /* PlaceDetailView.swift */; };
+		C6B1ABBEA2A3B62A9D025C4F /* ProductStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610483F7A14E763334046170 /* ProductStore.swift */; };
+		C8537A141A7A7947E976C5F8 /* OnboardingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B47D62BE6FF9CE90EC9965C /* OnboardingStore.swift */; };
+		C8775F7313559DA4AC762C45 /* RouteMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA042366324AF27DB2680A93 /* RouteMapView.swift */; };
+		CC68C49BD2191EA356872C32 /* WalkPermissionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFC348B8AB360FE21215983 /* WalkPermissionsModel.swift */; };
+		CD15A2856C5C98CDDABD8397 /* RouteBuilderModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7428F2B8FE84281AA7EE6CC /* RouteBuilderModels.swift */; };
+		CD534BC9AC2E93CC826459D2 /* OnboardingAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8361AE85F670D0CEBDBB8FE /* OnboardingAuthService.swift */; };
+		CF9C652410FE046F6E102BA2 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7B789DF539E2F7B5605D8A /* ProductViewModel.swift */; };
+		CFBAF1A0FE8DFE8BEF318CE0 /* BackendAndTelemetryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F70B2A570C07DA337AFB596 /* BackendAndTelemetryTests.swift */; };
+		D843436D03CC7F7C3620857A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B982DA8F3CB80EE975C6D9D3 /* ProfileView.swift */; };
+		DE53513C047255F48FECBFCE /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B18B3BA6DBE47AA7FE308 /* OnboardingView.swift */; };
+		E6DDAF6C084EBF711A6313EB /* PlanningViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A9BC3A713A0BB1FDFEED39 /* PlanningViewModelTests.swift */; };
+		EC9F04979AA388E1009D65F9 /* ProductWalkSyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08FE95F5644CC3C0E2BD82F /* ProductWalkSyncTests.swift */; };
+		EEAECC49350F07BC183D3553 /* TelemetryQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1F850417243E6A7F7FBB0E /* TelemetryQueue.swift */; };
+		F64604AF69F6C7D46B3AB22E /* MotionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE90D694698282FEA29D4117 /* MotionService.swift */; };
+		FBA30AFED647BB65DF6BEE82 /* OnboardingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5024123C085A1FA396D0B38A /* OnboardingModels.swift */; };
+		FD6A49D115C0C1F84021D267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BD736C0321F3239DA7C136B /* Assets.xcassets */; };
+		FE7774EC78CB821FDF3C750A /* ResearchObserverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74010983A6A43E9AB82845C8 /* ResearchObserverView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4473806E6CE9D117170A15ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F48563315A4731DBE0E95F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D16DDDD7703182373C2E5DDE;
+			remoteInfo = Walkie;
+		};
+		F680F8442AA315376DECCB02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F48563315A4731DBE0E95F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D16DDDD7703182373C2E5DDE;
+			remoteInfo = Walkie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00145C340797E42D89010A46 /* RouteDraftStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDraftStore.swift; sourceTree = "<group>"; };
+		011C7AE71F90E7162FC26816 /* BackendClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendClient.swift; sourceTree = "<group>"; };
+		0603BA991B2F980BEBE72E0F /* WalkieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkieApp.swift; sourceTree = "<group>"; };
+		0D99DF5BC93C735CBBB0D0C7 /* RouteBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteBuilderView.swift; sourceTree = "<group>"; };
+		0DCA9370EBAE2E2FF55DCD67 /* RouteReverseGeocoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteReverseGeocoder.swift; sourceTree = "<group>"; };
+		0EE45A464A1140DC594451E6 /* LiveRoutesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveRoutesAPI.swift; sourceTree = "<group>"; };
+		0FA74A2D1AEC3C3B3EC9C9D6 /* WalkieSmokeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkieSmokeTests.swift; sourceTree = "<group>"; };
+		13034F8EBDD09901390F84B4 /* Walkie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Walkie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		161B18B3BA6DBE47AA7FE308 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		173B16DB84D9E66A913CB99E /* HandoffComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandoffComponents.swift; sourceTree = "<group>"; };
+		1AAE91790F1CD2325DA7DE6A /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		1D1F850417243E6A7F7FBB0E /* TelemetryQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelemetryQueue.swift; sourceTree = "<group>"; };
+		1F70B2A570C07DA337AFB596 /* BackendAndTelemetryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendAndTelemetryTests.swift; sourceTree = "<group>"; };
+		2464581AA43250949B404484 /* WalkieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalkieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2529F34B07F3D3B3C9120B51 /* WalkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkViewModel.swift; sourceTree = "<group>"; };
+		306CF5179EC8FFA4FE5D5E61 /* SwitchingCoreAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingCoreAPI.swift; sourceTree = "<group>"; };
+		31B30C7E484BF2FB5ECCD18B /* DemoRouteCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoRouteCatalog.swift; sourceTree = "<group>"; };
+		33076EB50086125318CADF4F /* ProductWalkSyncStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductWalkSyncStatus.swift; sourceTree = "<group>"; };
+		35991AED4B7728D59C0A0928 /* PlanningViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanningViewModel.swift; sourceTree = "<group>"; };
+		365F20B6CFBAD6C0CA078E8B /* Unbounded-OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Unbounded-OFL.txt"; sourceTree = "<group>"; };
+		36780D47F4FCFE5E8007F244 /* Unbounded.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Unbounded.ttf; sourceTree = "<group>"; };
+		39DA8A968BE016189B4F8F90 /* SensorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorService.swift; sourceTree = "<group>"; };
+		49070E5987D8E24FE10A260C /* OnboardingLiveAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingLiveAuthService.swift; sourceTree = "<group>"; };
+		4AFC348B8AB360FE21215983 /* WalkPermissionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkPermissionsModel.swift; sourceTree = "<group>"; };
+		4B10A7BBE10D8B1ED8CBB653 /* PlanningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanningView.swift; sourceTree = "<group>"; };
+		4EE7717A33BB54D0E5EC8BE7 /* RouteOperationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteOperationStore.swift; sourceTree = "<group>"; };
+		5024123C085A1FA396D0B38A /* OnboardingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModels.swift; sourceTree = "<group>"; };
+		505E0DE0C88823226762F4E6 /* OnboardingFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowView.swift; sourceTree = "<group>"; };
+		5625D2829FA14EFF01B8ADA3 /* RoutePreviewStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutePreviewStore.swift; sourceTree = "<group>"; };
+		56F10501D5125C37CD209101 /* Onest.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Onest.ttf; sourceTree = "<group>"; };
+		57010C4A2A13835420EBF6E4 /* AccountViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModelTests.swift; sourceTree = "<group>"; };
+		57CAD1B3DD05B9A1FCDA33BC /* AppDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
+		5911D1DD0293181D8415210B /* RouteLocationPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteLocationPickerTests.swift; sourceTree = "<group>"; };
+		5B40AB5DFB38857159474987 /* WalkPermissionsFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkPermissionsFlowView.swift; sourceTree = "<group>"; };
+		604DF90B39AB57E422D2F21A /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		60C719EA236C1FE0F61EE3DC /* CoreAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAPI.swift; sourceTree = "<group>"; };
+		610483F7A14E763334046170 /* ProductStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductStore.swift; sourceTree = "<group>"; };
+		6460AF85C472EEB8BB3ABA3F /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		69DA2354BD0C115176CB41C0 /* WalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkView.swift; sourceTree = "<group>"; };
+		6A98C681B3D5CBC8114E5BAA /* WalkieCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WalkieCore; path = Packages/WalkieCore; sourceTree = SOURCE_ROOT; };
+		6BD736C0321F3239DA7C136B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7088B889AA354FCA596E6099 /* ProductStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductStoreTests.swift; sourceTree = "<group>"; };
+		74010983A6A43E9AB82845C8 /* ResearchObserverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchObserverView.swift; sourceTree = "<group>"; };
+		77364CE85DF78FC00C738358 /* ProductTelemetryRecording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTelemetryRecording.swift; sourceTree = "<group>"; };
+		7B9EF1D47D7D34723B8A0C37 /* AccountBackendClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBackendClient.swift; sourceTree = "<group>"; };
+		83BB8ABB8FB313A2F4084134 /* ReviewPresentationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewPresentationTests.swift; sourceTree = "<group>"; };
+		8847ACB74E2FE889A7D04F78 /* ProductWalkSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductWalkSync.swift; sourceTree = "<group>"; };
+		8B47D62BE6FF9CE90EC9965C /* OnboardingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStore.swift; sourceTree = "<group>"; };
+		8E63D93FD4B4A7115FA16B92 /* WalkSessionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkSessionCoordinator.swift; sourceTree = "<group>"; };
+		94E01B21EA4E1698C1DFBD7D /* OnboardingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingTests.swift; sourceTree = "<group>"; };
+		952EF21953F6A04E77D8BDE3 /* HandoffTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandoffTheme.swift; sourceTree = "<group>"; };
+		9895F0E65568A5C89B68B4B6 /* Walkie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Walkie.entitlements; sourceTree = "<group>"; };
+		9AA0384DC25FE2191701511C /* WalkSessionCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkSessionCoordinatorTests.swift; sourceTree = "<group>"; };
+		9CF8AF52410AAF6B375CDB44 /* PlaceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailView.swift; sourceTree = "<group>"; };
+		A25CC6ABDBA00AB6F70B1436 /* WalkSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkSummaryView.swift; sourceTree = "<group>"; };
+		A3C16F6FD61C6BA3B600E064 /* WalkConnectivityMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkConnectivityMonitor.swift; sourceTree = "<group>"; };
+		A4F764420E73AFF07EE2711D /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		A7428F2B8FE84281AA7EE6CC /* RouteBuilderModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteBuilderModels.swift; sourceTree = "<group>"; };
+		AAE5283BC5398FD3CE97ADE6 /* WalkPermissionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkPermissionsTests.swift; sourceTree = "<group>"; };
+		AB3557FDE423E4E99975ECFD /* RouteReadyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteReadyView.swift; sourceTree = "<group>"; };
+		AC7B789DF539E2F7B5605D8A /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		AF03B24A1C55A3B1C9588BF8 /* SystemWalkPermissionsClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemWalkPermissionsClient.swift; sourceTree = "<group>"; };
+		B002A5C522D1DBC8C97A9866 /* Onest-OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Onest-OFL.txt"; sourceTree = "<group>"; };
+		B2351CF7D4BC36140208E35A /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		B4AC0BD5B9802D70CAD563B0 /* RoutePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutePreviewViewModel.swift; sourceTree = "<group>"; };
+		B8A9BC3A713A0BB1FDFEED39 /* PlanningViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanningViewModelTests.swift; sourceTree = "<group>"; };
+		B982DA8F3CB80EE975C6D9D3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		BA042366324AF27DB2680A93 /* RouteMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteMapView.swift; sourceTree = "<group>"; };
+		C4D567138C243C66686A90B9 /* WalkieLogo.svg */ = {isa = PBXFileReference; lastKnownFileType = text; path = WalkieLogo.svg; sourceTree = "<group>"; };
+		D08FE95F5644CC3C0E2BD82F /* ProductWalkSyncTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductWalkSyncTests.swift; sourceTree = "<group>"; };
+		D168D3A88D5DF1787B77CCDC /* WalkieTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkieTheme.swift; sourceTree = "<group>"; };
+		D6ED33CAFF7A7B623325E627 /* LiveRoutesAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveRoutesAPITests.swift; sourceTree = "<group>"; };
+		D8361AE85F670D0CEBDBB8FE /* OnboardingAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingAuthService.swift; sourceTree = "<group>"; };
+		DF572A711C9CDC57061ED8FB /* RoutePreviewAndDraftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutePreviewAndDraftTests.swift; sourceTree = "<group>"; };
+		E795B1FC90BC7C199D4A01A1 /* WalkieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalkieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE90D694698282FEA29D4117 /* MotionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		084D9D32202D4727BF1A5946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D52191F57691A5E019F028 /* WalkieCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CCA5980873F4E452B0F8EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F7E03CBC2F1AC0198221A5 /* WalkieCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		066755CC20E25B6E16E1E37C /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				1AAE91790F1CD2325DA7DE6A /* LibraryView.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		17CB09577ABFC27E65ED7B89 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B002A5C522D1DBC8C97A9866 /* Onest-OFL.txt */,
+				56F10501D5125C37CD209101 /* Onest.ttf */,
+				365F20B6CFBAD6C0CA078E8B /* Unbounded-OFL.txt */,
+				36780D47F4FCFE5E8007F244 /* Unbounded.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		194FF3491C007825A2D01BEE /* Walk */ = {
+			isa = PBXGroup;
+			children = (
+				74010983A6A43E9AB82845C8 /* ResearchObserverView.swift */,
+				A25CC6ABDBA00AB6F70B1436 /* WalkSummaryView.swift */,
+				69DA2354BD0C115176CB41C0 /* WalkView.swift */,
+				2529F34B07F3D3B3C9120B51 /* WalkViewModel.swift */,
+				2A4690A0668983DE5D368EE1 /* Components */,
+			);
+			path = Walk;
+			sourceTree = "<group>";
+		};
+		2A4690A0668983DE5D368EE1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BA042366324AF27DB2680A93 /* RouteMapView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2C8B7228056A79DFBD3AB053 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				6A98C681B3D5CBC8114E5BAA /* WalkieCore */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		2E87EAB8B0E035E1189B3F2E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				D8361AE85F670D0CEBDBB8FE /* OnboardingAuthService.swift */,
+				505E0DE0C88823226762F4E6 /* OnboardingFlowView.swift */,
+				49070E5987D8E24FE10A260C /* OnboardingLiveAuthService.swift */,
+				5024123C085A1FA396D0B38A /* OnboardingModels.swift */,
+				8B47D62BE6FF9CE90EC9965C /* OnboardingStore.swift */,
+				6460AF85C472EEB8BB3ABA3F /* OnboardingViewModel.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		328B1AD31F8EEF618DEF7D7B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				57CAD1B3DD05B9A1FCDA33BC /* AppDependencies.swift */,
+				0603BA991B2F980BEBE72E0F /* WalkieApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4ECE867786C637BC1F7B8544 /* Permissions */ = {
+			isa = PBXGroup;
+			children = (
+				AF03B24A1C55A3B1C9588BF8 /* SystemWalkPermissionsClient.swift */,
+				5B40AB5DFB38857159474987 /* WalkPermissionsFlowView.swift */,
+				4AFC348B8AB360FE21215983 /* WalkPermissionsModel.swift */,
+			);
+			path = Permissions;
+			sourceTree = "<group>";
+		};
+		585B1E2A0C21EA3A8C71BD26 /* Walkie */ = {
+			isa = PBXGroup;
+			children = (
+				9895F0E65568A5C89B68B4B6 /* Walkie.entitlements */,
+				328B1AD31F8EEF618DEF7D7B /* App */,
+				B1C21BAA896EA5D238484675 /* Design */,
+				70821607473EDE0C04211A73 /* Features */,
+				7C031A0F7D94CA88E221EE0F /* Infrastructure */,
+				D037E9FBE320C93CE09CF6AE /* Resources */,
+				67C1D0AF9419D4006B18D6A1 /* Services */,
+			);
+			path = Walkie;
+			sourceTree = "<group>";
+		};
+		6746F2C859AD4FCAD0F9A317 /* Planning */ = {
+			isa = PBXGroup;
+			children = (
+				4B10A7BBE10D8B1ED8CBB653 /* PlanningView.swift */,
+				35991AED4B7728D59C0A0928 /* PlanningViewModel.swift */,
+				A7428F2B8FE84281AA7EE6CC /* RouteBuilderModels.swift */,
+				0D99DF5BC93C735CBBB0D0C7 /* RouteBuilderView.swift */,
+				B4AC0BD5B9802D70CAD563B0 /* RoutePreviewViewModel.swift */,
+				AB3557FDE423E4E99975ECFD /* RouteReadyView.swift */,
+			);
+			path = Planning;
+			sourceTree = "<group>";
+		};
+		67C1D0AF9419D4006B18D6A1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8E63D93FD4B4A7115FA16B92 /* WalkSessionCoordinator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		70821607473EDE0C04211A73 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				AA72BB4F49294B0881C761CB /* History */,
+				066755CC20E25B6E16E1E37C /* Library */,
+				2E87EAB8B0E035E1189B3F2E /* Onboarding */,
+				75F3398B551448659BE81390 /* Places */,
+				6746F2C859AD4FCAD0F9A317 /* Planning */,
+				D266282CED534E0F328D7932 /* Profile */,
+				194FF3491C007825A2D01BEE /* Walk */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		75F3398B551448659BE81390 /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				9CF8AF52410AAF6B375CDB44 /* PlaceDetailView.swift */,
+			);
+			path = Places;
+			sourceTree = "<group>";
+		};
+		7C031A0F7D94CA88E221EE0F /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				947EBF61B5289D2444380251 /* API */,
+				4ECE867786C637BC1F7B8544 /* Permissions */,
+				A8E03B1763D4F0F335254392 /* Sensors */,
+				C51EFBB95994D63FFF86CB4F /* Storage */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		947EBF61B5289D2444380251 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				7B9EF1D47D7D34723B8A0C37 /* AccountBackendClient.swift */,
+				011C7AE71F90E7162FC26816 /* BackendClient.swift */,
+				60C719EA236C1FE0F61EE3DC /* CoreAPI.swift */,
+				31B30C7E484BF2FB5ECCD18B /* DemoRouteCatalog.swift */,
+				0EE45A464A1140DC594451E6 /* LiveRoutesAPI.swift */,
+				77364CE85DF78FC00C738358 /* ProductTelemetryRecording.swift */,
+				4EE7717A33BB54D0E5EC8BE7 /* RouteOperationStore.swift */,
+				0DCA9370EBAE2E2FF55DCD67 /* RouteReverseGeocoder.swift */,
+				306CF5179EC8FFA4FE5D5E61 /* SwitchingCoreAPI.swift */,
+				1D1F850417243E6A7F7FBB0E /* TelemetryQueue.swift */,
+				A3C16F6FD61C6BA3B600E064 /* WalkConnectivityMonitor.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		9E896B60832A7F7D14C4747E /* WalkieTests */ = {
+			isa = PBXGroup;
+			children = (
+				57010C4A2A13835420EBF6E4 /* AccountViewModelTests.swift */,
+				1F70B2A570C07DA337AFB596 /* BackendAndTelemetryTests.swift */,
+				D6ED33CAFF7A7B623325E627 /* LiveRoutesAPITests.swift */,
+				94E01B21EA4E1698C1DFBD7D /* OnboardingTests.swift */,
+				B8A9BC3A713A0BB1FDFEED39 /* PlanningViewModelTests.swift */,
+				7088B889AA354FCA596E6099 /* ProductStoreTests.swift */,
+				D08FE95F5644CC3C0E2BD82F /* ProductWalkSyncTests.swift */,
+				83BB8ABB8FB313A2F4084134 /* ReviewPresentationTests.swift */,
+				5911D1DD0293181D8415210B /* RouteLocationPickerTests.swift */,
+				DF572A711C9CDC57061ED8FB /* RoutePreviewAndDraftTests.swift */,
+				AAE5283BC5398FD3CE97ADE6 /* WalkPermissionsTests.swift */,
+				9AA0384DC25FE2191701511C /* WalkSessionCoordinatorTests.swift */,
+			);
+			path = WalkieTests;
+			sourceTree = "<group>";
+		};
+		A8E03B1763D4F0F335254392 /* Sensors */ = {
+			isa = PBXGroup;
+			children = (
+				FE90D694698282FEA29D4117 /* MotionService.swift */,
+				39DA8A968BE016189B4F8F90 /* SensorService.swift */,
+			);
+			path = Sensors;
+			sourceTree = "<group>";
+		};
+		AA72BB4F49294B0881C761CB /* History */ = {
+			isa = PBXGroup;
+			children = (
+				B2351CF7D4BC36140208E35A /* HistoryView.swift */,
+				A4F764420E73AFF07EE2711D /* HistoryViewModel.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		AD40DE260A6A6C2374F1C667 = {
+			isa = PBXGroup;
+			children = (
+				2C8B7228056A79DFBD3AB053 /* Packages */,
+				585B1E2A0C21EA3A8C71BD26 /* Walkie */,
+				9E896B60832A7F7D14C4747E /* WalkieTests */,
+				C60BB496D249AE6835E8E4E7 /* WalkieUITests */,
+				B43025AB9F4B51E0E0A22C56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1C21BAA896EA5D238484675 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				6BD736C0321F3239DA7C136B /* Assets.xcassets */,
+				173B16DB84D9E66A913CB99E /* HandoffComponents.swift */,
+				952EF21953F6A04E77D8BDE3 /* HandoffTheme.swift */,
+				D168D3A88D5DF1787B77CCDC /* WalkieTheme.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		B43025AB9F4B51E0E0A22C56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13034F8EBDD09901390F84B4 /* Walkie.app */,
+				2464581AA43250949B404484 /* WalkieTests.xctest */,
+				E795B1FC90BC7C199D4A01A1 /* WalkieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C51EFBB95994D63FFF86CB4F /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				610483F7A14E763334046170 /* ProductStore.swift */,
+				8847ACB74E2FE889A7D04F78 /* ProductWalkSync.swift */,
+				33076EB50086125318CADF4F /* ProductWalkSyncStatus.swift */,
+				00145C340797E42D89010A46 /* RouteDraftStore.swift */,
+				5625D2829FA14EFF01B8ADA3 /* RoutePreviewStore.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		C60BB496D249AE6835E8E4E7 /* WalkieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0FA74A2D1AEC3C3B3EC9C9D6 /* WalkieSmokeTests.swift */,
+			);
+			path = WalkieUITests;
+			sourceTree = "<group>";
+		};
+		D037E9FBE320C93CE09CF6AE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C4D567138C243C66686A90B9 /* WalkieLogo.svg */,
+				17CB09577ABFC27E65ED7B89 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D266282CED534E0F328D7932 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				604DF90B39AB57E422D2F21A /* AccountViewModel.swift */,
+				161B18B3BA6DBE47AA7FE308 /* OnboardingView.swift */,
+				AC7B789DF539E2F7B5605D8A /* ProductViewModel.swift */,
+				B982DA8F3CB80EE975C6D9D3 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42857DB0AE82D9A2F8E597B7 /* WalkieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62297F9847DFE7E9E04AF9D /* Build configuration list for PBXNativeTarget "WalkieUITests" */;
+			buildPhases = (
+				C8798902958BF582499FC8DB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				244E7004A10C8509A17C9481 /* PBXTargetDependency */,
+			);
+			name = WalkieUITests;
+			packageProductDependencies = (
+			);
+			productName = WalkieUITests;
+			productReference = E795B1FC90BC7C199D4A01A1 /* WalkieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7F3D84AD658C46175C12CA5B /* WalkieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 603EA82EEA259D3BFC98A90A /* Build configuration list for PBXNativeTarget "WalkieTests" */;
+			buildPhases = (
+				28B1AA67AB3913A86B4760C8 /* Sources */,
+				084D9D32202D4727BF1A5946 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4A7563D22AB00BB704E83BD /* PBXTargetDependency */,
+			);
+			name = WalkieTests;
+			packageProductDependencies = (
+				FB9B9B0425188F99C81A073E /* WalkieCore */,
+			);
+			productName = WalkieTests;
+			productReference = 2464581AA43250949B404484 /* WalkieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D16DDDD7703182373C2E5DDE /* Walkie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC57F7171E70437DE4D1EC8 /* Build configuration list for PBXNativeTarget "Walkie" */;
+			buildPhases = (
+				D26F3F12F164900374040811 /* Sources */,
+				62AE1FCD2CE1221661342F0E /* Resources */,
+				6CCA5980873F4E452B0F8EED /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Walkie;
+			packageProductDependencies = (
+				144F1FDD1560C255AB434B59 /* WalkieCore */,
+			);
+			productName = Walkie;
+			productReference = 13034F8EBDD09901390F84B4 /* Walkie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F48563315A4731DBE0E95F5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					42857DB0AE82D9A2F8E597B7 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+						TestTargetID = D16DDDD7703182373C2E5DDE;
+					};
+					7F3D84AD658C46175C12CA5B = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					D16DDDD7703182373C2E5DDE = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4F77325DAA665CD56D75CC55 /* Build configuration list for PBXProject "Walkie" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = AD40DE260A6A6C2374F1C667;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F9CAE123BB4FB854EF78CD26 /* XCLocalSwiftPackageReference "Packages/WalkieCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B43025AB9F4B51E0E0A22C56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D16DDDD7703182373C2E5DDE /* Walkie */,
+				7F3D84AD658C46175C12CA5B /* WalkieTests */,
+				42857DB0AE82D9A2F8E597B7 /* WalkieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62AE1FCD2CE1221661342F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6A49D115C0C1F84021D267 /* Assets.xcassets in Resources */,
+				48E2232F5D1CCD6ABE1D6CE6 /* Onest-OFL.txt in Resources */,
+				1456B3D9FFB0899B71F9DD05 /* Onest.ttf in Resources */,
+				2EE7834FFB17F4C2F7557A42 /* Unbounded-OFL.txt in Resources */,
+				1B2C4C49D4ADA5F289F71C64 /* Unbounded.ttf in Resources */,
+				BEC71FE60612E00D4B09A94C /* WalkieLogo.svg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28B1AA67AB3913A86B4760C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A11649CD25622BB39DBD55F /* AccountViewModelTests.swift in Sources */,
+				CFBAF1A0FE8DFE8BEF318CE0 /* BackendAndTelemetryTests.swift in Sources */,
+				BDAC0F6D0CE862CF9F742A78 /* LiveRoutesAPITests.swift in Sources */,
+				53CD00EB12DB2520ADA1E8FD /* OnboardingTests.swift in Sources */,
+				E6DDAF6C084EBF711A6313EB /* PlanningViewModelTests.swift in Sources */,
+				8CF71E76E817A266C0FB3A09 /* ProductStoreTests.swift in Sources */,
+				EC9F04979AA388E1009D65F9 /* ProductWalkSyncTests.swift in Sources */,
+				3FD803692D42B4FE8308C8A8 /* ReviewPresentationTests.swift in Sources */,
+				BBB5A9082F03C269C4A7E609 /* RouteLocationPickerTests.swift in Sources */,
+				B75DB9F3CE0AA8023B826E35 /* RoutePreviewAndDraftTests.swift in Sources */,
+				0FABCB6C8F6C0C3A97366483 /* WalkPermissionsTests.swift in Sources */,
+				5E8B41F269AAADBDFA61A95A /* WalkSessionCoordinatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8798902958BF582499FC8DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C0EB11FFA02F117B74917AF /* WalkieSmokeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26F3F12F164900374040811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B1381D3A4A14924A2F3A8A /* AccountBackendClient.swift in Sources */,
+				1455BF568116DF885BD156AB /* AccountViewModel.swift in Sources */,
+				ABD41C198086A7BA94C35897 /* AppDependencies.swift in Sources */,
+				17B5C2AD75C226536C89975E /* BackendClient.swift in Sources */,
+				597CC63E6D4900EE49892C49 /* CoreAPI.swift in Sources */,
+				3470E9CE99831FC3E494AD3D /* DemoRouteCatalog.swift in Sources */,
+				76B12F4040E1A285FF206488 /* HandoffComponents.swift in Sources */,
+				B095D0489E8CDC87510A71D1 /* HandoffTheme.swift in Sources */,
+				08E47D8A101F96C71BDDE36E /* HistoryView.swift in Sources */,
+				11A55152DC27F0486DCC79D0 /* HistoryViewModel.swift in Sources */,
+				0E40496676E6927B896919FB /* LibraryView.swift in Sources */,
+				8ED28785E502131BAF091923 /* LiveRoutesAPI.swift in Sources */,
+				F64604AF69F6C7D46B3AB22E /* MotionService.swift in Sources */,
+				CD534BC9AC2E93CC826459D2 /* OnboardingAuthService.swift in Sources */,
+				0606E0BC79D7B2008045D1D4 /* OnboardingFlowView.swift in Sources */,
+				4E96E373582F194EA92E9153 /* OnboardingLiveAuthService.swift in Sources */,
+				FBA30AFED647BB65DF6BEE82 /* OnboardingModels.swift in Sources */,
+				C8537A141A7A7947E976C5F8 /* OnboardingStore.swift in Sources */,
+				DE53513C047255F48FECBFCE /* OnboardingView.swift in Sources */,
+				214D8C779F95C5AE84DB1586 /* OnboardingViewModel.swift in Sources */,
+				C6502CA2BB9D656892AB5A85 /* PlaceDetailView.swift in Sources */,
+				71C39F2AB0D1D68ED174910A /* PlanningView.swift in Sources */,
+				0A9274E5DFEF10AEC7B68DCE /* PlanningViewModel.swift in Sources */,
+				C6B1ABBEA2A3B62A9D025C4F /* ProductStore.swift in Sources */,
+				6C10586D8802BEDA7D8B7CA7 /* ProductTelemetryRecording.swift in Sources */,
+				CF9C652410FE046F6E102BA2 /* ProductViewModel.swift in Sources */,
+				8F2B7F1AA9F5DFAAF7C2A843 /* ProductWalkSync.swift in Sources */,
+				4658D23A271613DD86AB3403 /* ProductWalkSyncStatus.swift in Sources */,
+				D843436D03CC7F7C3620857A /* ProfileView.swift in Sources */,
+				FE7774EC78CB821FDF3C750A /* ResearchObserverView.swift in Sources */,
+				CD15A2856C5C98CDDABD8397 /* RouteBuilderModels.swift in Sources */,
+				24DC59CBE92C42F1442B28DB /* RouteBuilderView.swift in Sources */,
+				802EF2BA43D44708141EB487 /* RouteDraftStore.swift in Sources */,
+				C8775F7313559DA4AC762C45 /* RouteMapView.swift in Sources */,
+				3233EF6035ACD50FB6D12520 /* RouteOperationStore.swift in Sources */,
+				025E5A4B617748693CF514CE /* RoutePreviewStore.swift in Sources */,
+				B43BAD0AA1638D869E8C096F /* RoutePreviewViewModel.swift in Sources */,
+				74F0316873E0E9D7168790CC /* RouteReadyView.swift in Sources */,
+				962F8EE220AC7E3CB361BE0D /* RouteReverseGeocoder.swift in Sources */,
+				B100AB1D1981F586F829BB11 /* SensorService.swift in Sources */,
+				9F07283D69981B8634663EE9 /* SwitchingCoreAPI.swift in Sources */,
+				952355200411917A11A3C26E /* SystemWalkPermissionsClient.swift in Sources */,
+				EEAECC49350F07BC183D3553 /* TelemetryQueue.swift in Sources */,
+				AC19F9E52B49ACBE5817D167 /* WalkConnectivityMonitor.swift in Sources */,
+				06B0D067FDA29E19490336A8 /* WalkPermissionsFlowView.swift in Sources */,
+				CC68C49BD2191EA356872C32 /* WalkPermissionsModel.swift in Sources */,
+				02B4FB6BDD42FC936C2DE2B7 /* WalkSessionCoordinator.swift in Sources */,
+				14CEB35EE9DA2AE6DCFC819F /* WalkSummaryView.swift in Sources */,
+				046293CF95F74A0A7B55DF27 /* WalkView.swift in Sources */,
+				5A355D5257369BF82E96F951 /* WalkViewModel.swift in Sources */,
+				9FFB421BF80A9B8FC047C86E /* WalkieApp.swift in Sources */,
+				7EC77A7BCE4190350F802D0F /* WalkieTheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		244E7004A10C8509A17C9481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D16DDDD7703182373C2E5DDE /* Walkie */;
+			targetProxy = F680F8442AA315376DECCB02 /* PBXContainerItemProxy */;
+		};
+		A4A7563D22AB00BB704E83BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D16DDDD7703182373C2E5DDE /* Walkie */;
+			targetProxy = 4473806E6CE9D117170A15ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CECDDC453B8591799BAB65A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				WALKIE_BACKEND_URL = "http://178.72.149.13/api";
+			};
+			name = Release;
+		};
+		59BCC30A0A162DFCDC19B485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.walkie.WalkieTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Walkie.app/Walkie";
+			};
+			name = Debug;
+		};
+		5A9A905FBE6EAC081C0BA9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.walkie.WalkieTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Walkie.app/Walkie";
+			};
+			name = Release;
+		};
+		B56186689AFBEF3450512A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.walkie.WalkieUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Walkie;
+			};
+			name = Debug;
+		};
+		B66DE6FBA98196F47331D65C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				WALKIE_BACKEND_URL = "http://178.72.149.13/api";
+			};
+			name = Debug;
+		};
+		B9FBFC40E76B4ABA5A8CDDD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Walkie/Walkie.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZD4XL4P44;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DebugInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.walkie.ios;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WALKIE_BACKEND_URL = "http://178.72.149.13/api";
+			};
+			name = Debug;
+		};
+		E9F7604F16444E41CEBBD9DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Walkie/Walkie.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZD4XL4P44;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.walkie.ios;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WALKIE_BACKEND_URL = "http://178.72.149.13/api";
+			};
+			name = Release;
+		};
+		FFE2ED5B25104720412252A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.walkie.WalkieUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Walkie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F77325DAA665CD56D75CC55 /* Build configuration list for PBXProject "Walkie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66DE6FBA98196F47331D65C /* Debug */,
+				1CECDDC453B8591799BAB65A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		603EA82EEA259D3BFC98A90A /* Build configuration list for PBXNativeTarget "WalkieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59BCC30A0A162DFCDC19B485 /* Debug */,
+				5A9A905FBE6EAC081C0BA9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B62297F9847DFE7E9E04AF9D /* Build configuration list for PBXNativeTarget "WalkieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56186689AFBEF3450512A5F /* Debug */,
+				FFE2ED5B25104720412252A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DAC57F7171E70437DE4D1EC8 /* Build configuration list for PBXNativeTarget "Walkie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9FBFC40E76B4ABA5A8CDDD7 /* Debug */,
+				E9F7604F16444E41CEBBD9DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		F9CAE123BB4FB854EF78CD26 /* XCLocalSwiftPackageReference "Packages/WalkieCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/WalkieCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		144F1FDD1560C255AB434B59 /* WalkieCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WalkieCore;
+		};
+		FB9B9B0425188F99C81A073E /* WalkieCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WalkieCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F48563315A4731DBE0E95F5A /* Project object */;
+}
